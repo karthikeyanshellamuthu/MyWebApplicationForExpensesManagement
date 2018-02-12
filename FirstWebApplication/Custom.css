@@ -1,0 +1,202 @@
+﻿.txtBox{
+    background-color: burlywood;
+    color: red;
+    font-size: 14;
+    position: absolute;
+    left: 79px;
+    top: 157;
+}
+
+.clsLoginErrorMessage
+{
+
+
+}
+.clsLoginHere
+{
+    border: 2px thin #3483e5;
+    position:absolute;
+    left:150px;
+    top:10px;
+    font: icon 100;
+    border-bottom-color: black;
+    color: black;
+    
+}
+#btnSubmit{
+    font-weight: bold;
+    color:burlywood;
+    border-bottom-color:chocolate;
+}
+
+#LoginHomeBody{
+  background-image: url(Images/SecondHome.jpg);
+  background-size:cover;
+}
+
+#MasterBody{
+    //background-color:blue;
+    background-image:url(Images/AppBackGround.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+.loginForm{
+    background-color:burlywood;     
+    top: 204px;
+    position: absolute;
+    left: 500px;
+    border: 2px solid #ee2e2e;
+    padding: 29px;
+    padding-bottom: 5px !important;
+}
+div
+{
+    margin-bottom:08px;
+}
+.txtePassword{
+    float:right;
+}
+.loginForm > label
+{
+    text-align:left;
+    }
+
+.fltRight{
+    float:right;
+}
+.AlignBtn {
+    text-align: center;
+    /*margin-left: 158px;*/
+    float:right;
+}
+  
+ul{  
+  
+    list-style-type: none;  
+}  
+li a {  
+    color: #F1FAEE;  
+    font-size: 30px;  
+    column-width: 5%;  
+    }  
+    li  
+   {  
+    display: inline;  
+    padding-left: 2px;  
+    column-width: 20px;  
+   }  
+   a{  
+         text-decoration: none;  
+         margin-left:20px  
+    }  
+   li a:hover{  
+    background-color: #F3FFBD;  
+    color: #FF1654;  
+    padding:1%;  
+   }  
+
+   .nav{  
+    background-color:#b6336f;  
+    padding: 1px;  
+}  
+   
+   /* Dropdown Button */
+.dropbtn {
+    /*background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;*/
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+        text-align:center
+}
+
+.dropbtn:hover {
+    background-color: grey; /* Green */
+    color: red;
+    text-align:center
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3483e5;
+    min-width: 81px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#error{
+        color: red;
+}
+
+.message{
+    position: absolute;
+    left: 103px;
+    top: 179px;
+    width: 54%;
+}
+
+.FormSection {
+    border: 1px solid #587da2;
+    margin-top: -9px;
+    padding: 31px;
+    margin-left: 21px;
+    margin-right: 30px;
+}
+
+.btnAddUpdate {
+    width: 8%;
+    height: 5%;
+    background-color: #d35858;
+    color: #b4b4ee;
+    border: none;
+    /* border-radius: 5px; */
+    border: solid;
+    font-family: sans-serif;
+    font-style: initial;
+    position: absolute;
+    top: 39%;
+    left: 10%
+}
+
+.col-md-8 .text-center
+{
+    margin-left:25px;
+}
+td {
+    text-align:center !important;
+}
+
+  
