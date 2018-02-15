@@ -35,7 +35,7 @@
                                       <option value="SelectStatus">-- Customer Status --</option>
                                       <option value="Active">Active</option>
                                       <option value="InActive">In Active</option>
-                                  </select>
+                               </select>
                        </div>               
                 </div>
                 <div class="row" style="position:absolute;left:331px">

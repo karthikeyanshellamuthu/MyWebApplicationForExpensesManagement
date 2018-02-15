@@ -4,3 +4,5 @@ C:\Users\skart\documents\visual studio 2013\Projects\FirstWebApplication\FirstWe
 C:\Users\skart\documents\visual studio 2013\Projects\FirstWebApplication\FirstWebApplication\obj\Debug\FirstWebApplication.dll
 C:\Users\skart\documents\visual studio 2013\Projects\FirstWebApplication\FirstWebApplication\obj\Debug\FirstWebApplication.pdb
 C:\Users\skart\Documents\Visual Studio 2013\Projects\FirstWebApplication\FirstWebApplication\obj\Debug\FirstWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\skart\documents\visual studio 2013\Projects\FirstWebApplication\FirstWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\skart\documents\visual studio 2013\Projects\FirstWebApplication\FirstWebApplication\bin\Newtonsoft.Json.xml

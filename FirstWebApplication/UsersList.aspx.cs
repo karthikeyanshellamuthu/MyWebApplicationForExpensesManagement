@@ -22,18 +22,10 @@ namespace FirstWebApplication
            {
                //ListUsers();
                loadGriData();
-           }
-           
+           }           
         }
-
        private void loadGriData()
        {
-           //String sConnectionString = ConfigurationManager.ConnectionStrings["Dbconnection"].ToString();
-           //SqlConnection objSqlCon = new SqlConnection(sConnectionString);
-           
-           
-
-
            SqlConnection objSqlCon = _Util.ConnString();
            objSqlCon.Open();
            string slqString = "SELECT ID, EmailID, Password, FirstName, LastName, DateOfEntry, CreatedBy, CASE WHEN Status = 1 THEN 'Active' ELSE 'In Active' END AS Status FROM loginDetails WHERE ISNULL(isDeleted,0) =0 order by FirstName;";
@@ -129,8 +121,6 @@ namespace FirstWebApplication
                grid1.DataBind();
                objSqlCon.Close();       
        }
-
-
        protected void Cancel_Filter(object sender, EventArgs e)
        {
            loadGriData();
@@ -163,27 +153,16 @@ namespace FirstWebApplication
                    }
                    objSqlCon.Close();
                }
-                            
            }
-
-           //for (int i = 0; i < (Users.Count); i++)
-           //{
-           //    UserDetails c = Users[i];
-           //    Console.WriteLine("ID={0}, EmailID={1}, FirstName={2}, LastName={3}, DateOfEntry={4}, CreatedBy={5}", c.ID, c.EmailId, c.FirstName, c.LastName, c.DateOfEntry, c.CreatedBy);
-           //}     
-                     
        }
-
-       
     
      [WebMethod]
 
        public static string cDeleteUser(deleteUserDetails deleteUserDetails)
-       {
-           String sConnectionString = ConfigurationManager.ConnectionStrings["Dbconnection"].ToString();
+       {           
+          String sConnectionString = ConfigurationManager.ConnectionStrings["Dbconnection"].ToString();
           SqlConnection objSqlCon = new SqlConnection(sConnectionString);
-
-          
+                  
             try 
             {
                 using (SqlConnection sqlCon = objSqlCon)
@@ -196,18 +175,15 @@ namespace FirstWebApplication
                         cmd.Parameters.AddWithValue("@ID", deleteUserDetails.ID);
                         sqlCon.Open();
                         cmd.ExecuteNonQuery();
-                   }
-                    
+                   }                    
                     sqlCon.Close();
                 }
                 return "Success";
-
             }
             catch(Exception ac)
             {
                 return "Error";
-            }
-                             
+            }                             
        }
      
     }
