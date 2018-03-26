@@ -16,9 +16,10 @@
                
                     <div class="dropdown-content">
                          <a href="UsersList.aspx" runat="server">Users List</a>
+                        <a href="Expenses.aspx" runat="server">Add Expenses</a>        
                     </div>
                 </div>
-               <a href="Expenses.aspx" runat="server">Add Expenses</a>                        
+                               
                <div class="dropdown">
                     <button id="btnExpenses" class="dropbtn" runat="server" style="position:absolute;left:-657px;top:-13px">
                        <%--<a href="Expenses.aspx" runat="server">Add Expenses</a>                        --%>

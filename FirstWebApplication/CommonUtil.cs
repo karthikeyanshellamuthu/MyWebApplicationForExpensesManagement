@@ -59,6 +59,17 @@ namespace FirstWebApplication
     }
 
 
+    public class deleteExpenses
+    {        public int ID { get; set; }
+    }
+
+    public class editExpenses
+    {
+        public int ID { get; set; }
+    }
+
+
+
     public class UserDetails
     {
         public int ID { get; set; }
@@ -70,7 +81,45 @@ namespace FirstWebApplication
         public string CreatedBy { get; set; }
 
     }
+    
+
+    public class ExpensesDetails
+    {
+        public DateTime ExpensesDate { get; set; }
+        public string FriendsType { get; set; }
+        public float ExpensesAmount { get; set; }
+        public string Comments { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public String Bills { get; set; }
+        public string FileName { get; set; }
+        public string SplitWith { get; set; }
+    }
 
 
+    public class getExpensesHistory
+    {
+        public int ContributionUserID { get; set; }
+        public float ExpenseAmount { get; set; }
+        public String Bills { get; set; }
+        public string Password { get; set; }
+        public string AddedUserFirstName { get; set; }
+        public string AddedUserLastName { get; set; }
+        public string Comments { get; set; }
+        public DateTime AddedOn { get; set; }
+        public string SplitWith { get; set; }
+    }
+
+    public class EditExpenses
+    {
+        public int ID { get; set; }
+        public DateTime ExpensesDate { get; set; }
+        public string FriendsType { get; set; }
+        public float ExpenseAmount { get; set; }
+        public string Comments { get; set; }
+        public String Bills { get; set; }
+        public string FileName { get; set; }
+        public string SplitWith { get; set; }
+    }
 
 }

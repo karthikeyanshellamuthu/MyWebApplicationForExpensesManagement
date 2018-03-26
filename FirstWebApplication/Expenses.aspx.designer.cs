@@ -31,13 +31,13 @@ namespace FirstWebApplication {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblDataYear;
         
         /// <summary>
-        /// txtDateTimePicker control.
+        /// txtCalendar control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText txtDateTimePicker;
+        protected global::System.Web.UI.HtmlControls.HtmlInputText txtCalendar;
         
         /// <summary>
         /// lblFriendsType control.
@@ -85,15 +85,6 @@ namespace FirstWebApplication {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblFriendsName;
         
         /// <summary>
-        /// ckFriendsName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.CheckBoxList ckFriendsName;
-        
-        /// <summary>
         /// lblComments control.
         /// </summary>
         /// <remarks>
@@ -112,12 +103,30 @@ namespace FirstWebApplication {
         protected global::System.Web.UI.WebControls.TextBox txtComments;
         
         /// <summary>
-        /// btnSubmitExpenses control.
+        /// lblScreenshots control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSubmitExpenses;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl lblScreenshots;
+        
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Label1;
+        
+        /// <summary>
+        /// upload control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload upload;
     }
 }
